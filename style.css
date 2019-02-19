@@ -1,5 +1,5 @@
-@font-face { font-family: sunbrush; src: url('sunbrush.otf'); } 
- @font-face { font-family: player;  src: url('addd.ttf');}
+@font-face { font-family: sunbrush; src: url('./sunbrush.otf'); } 
+ @font-face { font-family: player;  src: url('./addd.ttf');}
 
 h1 {
  font-family: player;
