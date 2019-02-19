@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Laser Tag</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src = "script.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-database.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAPZtzl0SJbN8pV19zOr1gvTEjvPui8szA",
+    authDomain: "embeddedproject-43acc.firebaseapp.com",
+    databaseURL: "https://embeddedproject-43acc.firebaseio.com",
+    projectId: "embeddedproject-43acc",
+    storageBucket: "",
+    messagingSenderId: "604829459548"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
+    <meta http-equiv="Refresh" content="3">
+  </head>
+
+  <body onload="read()">
+
+<div class="container"> 
+<div class="centeredh1">
+  <h1>Laser Tag</h1>
+</div>
+</div>
+
+
+<div class ="container">
+<div class = "centeredchoice">
+<h1  id="updateScore"> <span id="updScore"></span></h1>
+</div>
+</div>
+
+
+
+<div class="container"> 
+<div class="centeredh1">
+  <a href="game.html"><button type="button" class = "backbutton">Back </button></a>
+</div>
+</div>
+
+
+
+</body>
+</html>

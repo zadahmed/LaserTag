@@ -1,0 +1,91 @@
+@font-face { font-family: sunbrush; src: url('sunbrush.otf'); } 
+ @font-face { font-family: player;  src: url('addd.ttf');}
+
+h1 {
+ font-family: player;
+ font-size: 50px;         
+ }
+
+
+#updateScore{
+ font-family: player;
+ font-size: 200px;   
+ 
+
+}
+
+#updateScore2{
+ font-family: player;
+ font-size: 200px;   
+ 
+
+}
+
+.playbutton{
+ font-family: player;
+ font-size: 200px;   
+ background: rgba(0,0,0,0);      
+ }
+
+.gamechoice {
+
+ font-family: player;
+ font-size: 100px;   
+ background: rgba(0,0,0,0);    
+
+}
+
+.backbutton {
+   font-family: player;
+ font-size: 70px;   
+ background: rgba(0,0,0,0);    
+}
+
+.container {
+    display: table;
+}
+
+.multi {
+    display: table;
+    
+}
+
+.team1 {
+  font-family: player;
+ font-size: 50px;
+  padding-left: 75px;
+  display: inline-block;
+  text-align: center;
+}
+
+.team2 {
+  font-family: player;
+ font-size: 50px;
+  padding-left: 100px;
+  display: inline-block;
+  text-align: center;
+}
+.centeredh1 {
+    display: table-cell;
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.centered {
+    display: table-cell;
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.centeredchoice {
+    display: table-cell;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  

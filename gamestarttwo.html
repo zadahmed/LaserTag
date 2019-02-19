@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Laser Tag</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src = "script.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAPZtzl0SJbN8pV19zOr1gvTEjvPui8szA",
+    authDomain: "embeddedproject-43acc.firebaseapp.com",
+    databaseURL: "https://embeddedproject-43acc.firebaseio.com",
+    projectId: "embeddedproject-43acc",
+    storageBucket: "",
+    messagingSenderId: "604829459548"
+  };
+  firebase.initializeApp(config);
+</script>
+    <meta http-equiv="Refresh" content="3">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/jquery-
+confirm/3.3.0/jquery-confirm.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-
+confirm/3.3.0/jquery-confirm.min.js"></script>
+  </head>
+
+  <body onload="readtwoplayer()">
+
+<div class="container"> 
+<div class="centeredh1">
+  <h1>Laser Tag</h1>
+</div>
+</div>
+
+<div class="container"> 
+<div class="centeredh1">
+  <h2 id ="Timer"></h2>
+</div>
+</div>
+
+
+
+<div class = "multi">
+  <div class = "team1">
+<h2> Team 1 </h2>
+<h1  id="updateScore"> <span id="updScore"></span></h1>
+ </div>
+ <div class = "team2">
+   <h2> Team 2 </h2>
+<h1  id="updateScore2"> <span id="updScore2"></span></h1>
+</div>
+</div>
+
+
+
+<div class="container"> 
+<div class="centeredh1">
+  <a href="game.html"><button type="button" class = "backbutton">Back </button></a>
+</div>
+</div>
+
+
+
+</body>
+</html>
